@@ -32,12 +32,13 @@ collections:
     format: frontmatter
     create: true
     slug: '{{title}}'
+    description: "You can use  {:.left}"
     fields:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Description, name: description, widget: string}
       - {label: Image, name: image, widget: image}
-      - {label: Body, name: body, widget: markdown, description: "[//]: # (  FLOAT LEFT: {:.left}  )"}
+      - {label: Body, name: body, widget: markdown}
 
   - name: pages
     label: Pages
