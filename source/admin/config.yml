@@ -37,7 +37,7 @@ collections:
       - {label: Publish Date, name: date, widget: datetime}
       - {label: Description, name: description, widget: string}
       - {label: Image, name: image, widget: image}
-      - {label: Body, name: body, widget: markdown, description: [//]: # (  FLOAT LEFT: {:.left}  )}
+      - {label: Body, name: body, widget: markdown, description: "[//]: # (  FLOAT LEFT: {:.left}  )"}
 
   - name: pages
     label: Pages
